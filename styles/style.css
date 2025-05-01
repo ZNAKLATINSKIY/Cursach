@@ -589,7 +589,7 @@ h2 {
     max-width: 531px;
     min-height: 300px;
     position: relative;
-    background-image: url("/images/levandosky.jpg");
+    background-image: url("../images/levandosky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
