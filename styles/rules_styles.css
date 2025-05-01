@@ -10,7 +10,7 @@
 }
 .header {
     min-height: 642px;
-    background-image: url("/images/rules_background.png");
+    background-image: url("../images/rules_background.png");
 }
 .header__title {
     font-size: 120px;
