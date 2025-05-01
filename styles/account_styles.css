@@ -9,7 +9,7 @@
     color: #dc052d;
 }
 .header {
-    background-image: url("/images/account_background.png");
+    background-image: url("../images/account_background.png");
     min-height: 660px;
 }
 .header__title {
