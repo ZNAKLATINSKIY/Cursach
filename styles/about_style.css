@@ -1,6 +1,6 @@
 .header {
     min-height: 642px;
-    background-image: url("/images/about_page-header.jpg");
+    background-image: url("./images/about_page-header.jpg");
 }
 .header__content {
     margin-top: 46px;
