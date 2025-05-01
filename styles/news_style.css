@@ -1,6 +1,6 @@
 .header {
     min-height: 642px;
-    background-image: url(/images/news_header.jpg);
+    background-image: url(./images/news_header.jpg);
 }
 .header__content {
     margin-top: 85px;
