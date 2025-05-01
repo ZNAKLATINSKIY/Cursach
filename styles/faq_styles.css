@@ -9,7 +9,7 @@
     color: #dc052d;
 }
 .header {
-    background-image: url("/images/faq_background.png");
+    background-image: url("../images/faq_background.png");
     min-height: 600px;
 }
 .header__title {
