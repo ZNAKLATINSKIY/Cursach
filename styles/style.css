@@ -18,12 +18,12 @@
 }
 body {
     background-color: #001010;
-    background-image: url("/images/background_body.png");
+    background-image: url("./images/background_body.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .header {
-    background-image: url("/images/header_background.svg");
+    background-image: url("./images/header_background.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -589,7 +589,7 @@ h2 {
     max-width: 531px;
     min-height: 300px;
     position: relative;
-    background-image: url("/images/levandosky.jpg");
+    background-image: url("./images/levandosky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
