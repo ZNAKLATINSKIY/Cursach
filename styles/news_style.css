@@ -1,0 +1,220 @@
+.header {
+    min-height: 642px;
+    background-image: url(/images/news_header.jpg);
+}
+.header__content {
+    margin-top: 85px;
+}
+.header__title {
+    font-size: 120px;
+}
+.home {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.news_nav {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+    color: #dc052d;
+}
+
+@media (max-width: 1440px) {
+    .header {
+        min-height: 400px;
+    }
+    .header__content {
+        margin-top: 30px;
+    }
+    .card__img {
+        filter: grayscale(1);
+    }
+    .card__text > h3 {
+        top: 125px;
+        text-shadow: black 1px 1px 5px;
+    }
+    .card__text > span {
+        top: 120px;
+        text-shadow: black 1px 1px 5px;
+    }
+}
+@media (max-width: 1200px) {
+    .content__news-card {
+        max-width: 400px;
+        height: 300px;
+    }
+    .card__text > h3 {
+        font-size: 20px;
+    }
+    .card__text > span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .header {
+        min-height: 500px;
+    }
+    .header {
+        min-height: 360px;
+    }
+    .header__title {
+        font-size: 75px;
+    }
+    .header__content {
+        justify-content: center;
+        gap: 150px;
+    }
+    .content__right {
+        flex-direction: row;
+    }
+    .news__content-news {
+        margin-top: 20px;
+    }
+    .content__news-card {
+        max-width: 400px;
+        height: 300px;
+    }
+    .card__text > h3 {
+        font-size: 20px;
+    }
+    .card__text > span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 870px) {
+    .header {
+        min-height: 350px;
+    }
+    .header__title {
+        font-size: 60px;
+    }
+    .header__content {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .header__button {
+        margin-top: 65px;
+    }
+    .content__right {
+        flex-direction: row;
+    }
+    .news__content-news {
+        margin-top: 10px;
+    }
+    .content__news-card {
+        max-width: 600px;
+        height: 300px;
+    }
+    .card__text > h3 {
+        font-size: 25px;
+    }
+    .card__text > span {
+        font-size: 20px;
+    }
+}
+@media (max-width: 810px) {
+    .header__content {
+        margin-top: 120px;
+    }
+}
+@media (max-width: 651px) {
+    .header__title {
+        display: block;
+    }
+    .header__title {
+        font-size: 50px;
+    }
+    .card__text > h3 {
+        font-size: 23px;
+    }
+    .card__text > span {
+        font-size: 18px;
+    }
+}
+@media (max-width: 580px) {
+    .header {
+        min-height: 300px;
+    }
+    .header__title {
+        font-size: 40px;
+    }
+    .header__content {
+        margin-bottom: 20px;
+    }
+    .content__news-card {
+        max-width: 400px;
+        height: 300px;
+    }
+    .card__text > h3 {
+        font-size: 20px;
+    }
+    .card__text > span {
+        font-size: 15px;
+    }
+}
+@media (max-width: 510px) {
+    .header {
+        min-height: 250px;
+    }
+    .header__content {
+        margin-top: 50px;
+    }
+    .header__title {
+        font-size: 35px;
+    }
+    .content__right {
+        flex-direction: row;
+    }
+    .news__content-news {
+        margin-top: 10px;
+    }
+    .card__text > h3 {
+        font-size: 20px;
+    }
+    .card__text > span {
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        min-height: 200px;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+    .header__content {
+        margin-top: 50px;
+    }
+    .content__right {
+        flex-direction: row;
+    }
+    .news__content-news {
+        margin-top: 10px;
+    }
+    .card__text > h3 {
+        font-size: 20px;
+    }
+    .card__text > span {
+        font-size: 15px;
+    }
+}
+@media (max-width: 460px) {
+    .header {
+        min-height: 270px;
+    }
+    .header__title {
+        font-size: 35px;
+    }
+    .header__content {
+        gap: 25px;
+        padding-bottom: 20px;
+    }
+    .content__right {
+        flex-direction: row;
+    }
+}
+@media (max-width: 450px) {
+    .header {
+        min-height: 350px;
+    }
+}

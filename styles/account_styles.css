@@ -1,0 +1,251 @@
+.home {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.account_page {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+    color: #dc052d;
+}
+.header {
+    background-image: url("/images/account_background.png");
+    min-height: 660px;
+}
+.header__title {
+    font-size: 120px;
+}
+.section__title {
+    text-align: left;
+    font-size: 100px;
+}
+.section__content {
+    margin: 75px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.account__cancel {
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 167%;
+    color: #f5f5f5;
+    display: none;
+}
+.account__content-info {
+    max-width: 1650px;
+    min-height: 373px;
+    background: #31000f;
+    border: 2px solid gray;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 50px;
+}
+.account__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account__form-inputs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.form__stroke, .password__stroke {
+    display: flex;
+    flex-direction: column;
+}
+.form-label {
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #f5f5f5;
+}
+.form-input {
+    width: 480px;
+    min-height: 60px;
+    background: none;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid #6b6b6b;
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #f5f5f5;
+    margin-bottom: 40px;
+}
+.forgot-password {
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 3px;
+    color: #f5f5f5;
+    transition: 0.4s;
+}
+.form__button-save, .form__button-change {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    background: #dc052d;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    color: #f5f5f5;
+    transition: 0.4s;
+}
+.form__button-save {
+    background: #0066b2;
+}
+.password__stroke-confirmation, .form__button-save {
+    display: none;
+}
+/*АДАПТИВ*/
+@media (min-width: 1980px) {
+    .header {
+        min-height: 750px;
+    }
+}
+@media (max-width: 1680px) {
+    .account__form-inputs {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px;
+    }
+    .form__button-save, .form__button-change {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1500px) {
+    .header {
+        min-height: 500px;
+    }
+    .header__content {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1263px) {
+    .account__content-info {
+        max-width: 80vw;
+    }
+}
+@media (max-width: 1090px) {
+    .content__right {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .content__right > a > img {
+        width: 45px;
+    }
+}
+@media (max-width: 1023px) {
+    .header__title {
+        font-size: 80px;
+    }
+    .header__content {
+        padding-bottom: 50px;
+        margin-top: 175px;
+        border-bottom: 2px solid #dc052d;
+    }
+    .account__form-inputs {
+        gap: 0;
+    }
+}
+@media (max-width: 900px) {
+    .section__title {
+        font-size: 85px;
+    }
+}
+@media (max-width: 750px) {
+    .header__content {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 710px) {
+    .section__title {
+        font-size: 75px;
+    }
+}
+@media (max-width: 660px) {
+    .header__content {
+        flex-direction: column;
+        gap: 35px;
+        margin-top: 75px;
+    }
+    .header__title {
+        display: block;
+    }
+    .account__content {
+         margin-top: 75px;
+    }
+    .form-input {
+        width: 350px;
+    }
+    .account__content {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 630px) {
+    .section__title {
+        font-size: 65px;
+        text-align: center;
+    }
+    .account__content {
+        margin-top: 0;
+    }
+    .header {
+        min-height: 480px;
+    }
+}
+@media (max-width: 550px) {
+    .section__title {
+        font-size: 60px;
+    }
+    .header {
+        min-height: 470px;
+    }
+    .section__content {
+        margin: 30px 0 0 0;
+    }
+}
+@media (max-width: 510px) {
+    .section__title {
+        font-size: 55px;
+    }
+}
+@media (max-width: 500px) {
+    .navbar__mobile {
+        padding-top: 25px;
+    }
+    .form-label, .form-input {
+        font-size: 17px;
+    }
+    .form-input {
+        width: 320px;
+    }
+}
+@media (max-width: 440px) {
+    .form-input {
+        width: 280px;
+    }
+}
+@media (max-width: 400px) {
+    .form-input {
+        width: 250px;
+    }
+}
