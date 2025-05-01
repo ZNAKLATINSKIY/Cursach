@@ -1120,6 +1120,11 @@ h2 {
         margin-top: 10px;
     }
 }
+@media (max-width: 500px) {
+    .token, .about {
+        padding: 0;
+    }
+}
 @media (min-width: 550px) and (max-width: 649px) {
     .mobile-none {
         display: none;
